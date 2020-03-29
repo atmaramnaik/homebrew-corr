@@ -13,7 +13,7 @@ class Corrs < Formula
     sd.mkpath
     sd.install "index.html"
     (buildpath/"corrs.toml").write <<~EOS
-      wroot = #{prefix}/static
+      wroot = "#{prefix}/static"
     EOS
     etc.install "corrs.toml"
   end
