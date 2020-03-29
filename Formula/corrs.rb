@@ -4,11 +4,20 @@
 class Corrs < Formula
   desc "Corrs Server for connecting and dealing with corr servers"
   homepage "https://github.com/atmaramnaik/corr"
-  url "https://github.com/atmaramnaik/corr/releases/download/v0.0.1/corrs-mac.tar.gz"
-  sha256 "2c15e21ad80ddd406e49a37722c84db0af38b6ba1f2dc1c136c6b866fd17f144"
-  version "0.0.1"
-
+  url "https://github.com/atmaramnaik/corr/releases/download/v0.0.2/corrs-mac.tar.gz"
+  sha256 "c787d8c089e6934bb4f1b6c8a27a52fe78330769acc1be4bb7f2bf14b1f0571e"
+  version "0.0.2"
+    
   def install
     bin.install "corrs"
+    sd.mkpath
+    sd.install Dir["static/*"]
+    (buildpath/"corrs.toml").write <<~EOS
+      wroot = #{prefix}/static
+    EOS
+    etc.install "corrs.toml"
+  end
+  def sd
+    return prefix/"static"
   end
 end

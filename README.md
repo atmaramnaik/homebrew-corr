@@ -1,14 +1,14 @@
-# Atmaramnaik Corr
+# atmnk corr
 
 ## How do I install these formulae?
-`brew install atmaramnaik/corr/<formula>`
+`brew install atmnk/corr/<formula>`
 
-Or `brew tap atmaramnaik/corr` and then `brew install <formula>`.
+Or `brew tap atmnk/corr` and then `brew install <formula>`.
 
 Or install via URL (which will not receive updates):
 
 ```
-brew install https://raw.githubusercontent.com/atmaramnaik/homebrew-corr/master/Formula/<formula>.rb
+brew install https://raw.githubusercontent.com/atmnk/homebrew-corr/master/Formula/<formula>.rb
 ```
 
 ## Documentation
