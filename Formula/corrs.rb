@@ -11,7 +11,7 @@ class Corrs < Formula
   def install
     bin.install "corrs"
     sd.mkpath
-    sd.install Dir["static/*"]
+    sd.install "index.html"
     (buildpath/"corrs.toml").write <<~EOS
       wroot = #{prefix}/static
     EOS
