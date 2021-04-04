@@ -1,5 +1,5 @@
 class Corrs < Formula
-  desc "Corrs Server for connecting and dealing with corr servers"
+  desc "Server for connecting and dealing with corr servers"
   homepage "https://github.com/atmaramnaik/corr"
   url "https://github.com/atmnk/corr/releases/download/v0.0.32/corrs.tar.gz"
   sha256 "03c8a8bcb3dc2aebc89fec3eb8d07c21c10b2423195db318a960ce592d0397e7"
