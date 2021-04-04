@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Corr < Formula
   desc "Corr Client for connecting and dealing with corr servers"
   homepage "https://github.com/atmaramnaik/corr"
