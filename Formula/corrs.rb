@@ -2,8 +2,8 @@ class Corrs < Formula
   desc "Server for connecting and dealing with corr servers"
   homepage "https://github.com/atmaramnaik/corr"
   url "https://github.com/atmnk/corr/releases/download/v0.1.4/corrs.tar.gz"
-  sha256 "09333e6116859e33ceb7bbe859f4fe05a1471769ed3b7007cd71888c5c9b26e8"
   version "0.1.4"
+  sha256 "09333e6116859e33ceb7bbe859f4fe05a1471769ed3b7007cd71888c5c9b26e8"
     
   def install
     bin.install "corrs"
