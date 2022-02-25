@@ -1,9 +1,9 @@
 class Corr < Formula
   desc "Client for connecting and dealing with corr servers"
   homepage "https://github.com/atmaramnaik/corr"
-  url "https://github.com/atmnk/corr/releases/download/v0.1.24/corr.tar.gz"
-  version "0.1.24"
-  sha256 "22861f76ade1b38f3ea7f19c7e005f2c921205b9cb17fdcd89aec5db22f856f9"
+  url "https://github.com/atmnk/corr/releases/download/v0.1.25/corr.tar.gz"
+  version "0.1.25"
+  sha256 "dcc0e9562f496aa5ead47910ee343af7ccc40b09ef2eabfe59fe091000eb386b"
   def install
     bin.install "corr"
   end
