@@ -1,4 +1,4 @@
-class CorrBeta < Formula
+class Corrbeta < Formula
   desc "Client for connecting and dealing with corr servers"
   homepage "https://github.com/atmaramnaik/corr"
   url "https://github.com/atmnk/corr/releases/download/v0.2.1/corr.tar.gz"
